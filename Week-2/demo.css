@@ -1,6 +1,10 @@
+body {
+    margin: auto;
+}
 header {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(45 248 197);
 }
 .container {
     width: 85%;
@@ -14,8 +18,10 @@ header {
     padding: 10px;
     margin-left: 10px;
     margin-top: 30px;
-    box-shadow: 6px 9px #888888;
+    box-shadow: 6px 9px #88888842;
     height: 315px;
+    background-color: rgb(2 58 62);
+    color: #d9e5e1;
 }
 
 .article-title {
@@ -24,3 +30,12 @@ header {
     text-align: center;
     margin-bottom: 10px;
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #bdeadf;
+    color: #849c9e;
+ }
