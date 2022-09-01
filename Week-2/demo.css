@@ -30,6 +30,25 @@ header {
     text-align: center;
     margin-bottom: 10px;
 }
+.form-container {
+    margin-top: 20px;
+}
+.field {
+    margin: 10px 20px 10px 0px;
+    height: 40px;
+}
+.field > label {
+    margin-right: 20px;
+    font-size: 17px;
+    color: #c4b6b6;
+    font-weight: 500;
+    display: inline-block;
+    width: 200px;
+}
+.country {
+    width: 148px;
+    height: 22px;
+}
 footer {
     position: fixed;
     left: 0;
