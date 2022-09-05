@@ -1,0 +1,26 @@
+function createIncrement() {
+    let count = 0;
+    function increment() {
+        count++;
+    }
+    let message = `Count is ${count}`;
+    function log() {
+        console.log(message);
+    }
+    return [increment, log];
+}
+
+const [increment, log] = createIncrement();
+increment();
+increment();
+increment();
+increment();
+log();
+
+
+Output of the program will be:
+Count is 0
+
+"Count will be '0'" because it is stored in a message variable, and when the createIncrement function was called,
+the message is stored in a variable, and at that particular time, the value of count was '0'. Whichever calling the
+increment function multiple times can not do anything, and the message will remain intact.
