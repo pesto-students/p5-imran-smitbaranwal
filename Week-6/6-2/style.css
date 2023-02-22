@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+body {
+  background: #333;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.log-boolean,
+.log-undefined {
+  color: magenta;
+  font-family: "Fira Code", monospace;
+}
+.log-object,
+.log-string {
+  color: orange;
+  font-family: "Fira Code", monospace;
+}
+.log-number {
+  color: cyan;
+  font-family: "Fira Code", monospace;
+}
+
+h1 {
+  color: orangered;
+}
